@@ -1,0 +1,272 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    background-color: white;
+}
+
+.hero{
+    background-color: #1c1d25;
+    height:100vh;
+    color:white;
+    font-size: 40px;
+}
+
+
+footer {
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1c1d25;
+    color: white;
+    padding: 10px;
+}
+
+footer ul{
+    display: flex;
+    text-align: center;
+    background-color: #1c1d25;
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 500px;
+}
+
+li{
+    text-decoration: none;
+
+}
+h1{
+    font-size: 90px;
+    margin:0;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    margin:0;
+    font-size: 30px;
+    font-weight: 300;
+}
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text{
+    margin-left: 40px;
+    margin-bottom: 200px;
+}
+.button{
+    width: 220px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 3px;
+    margin-top:20px;
+}
+.button:hover{
+    background-color: #ef744b;
+}
+.button:active{
+    background-color: darkgrey;
+}
+.socials{
+    padding-bottom: 200px;
+}
+.social{
+    margin:20px;
+}
+.logo{
+    height:120px;
+    margin-left:20px;
+}
+.sub-section{
+    display:flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.sub-section-alternative{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding:80px;
+}
+.headshot{
+    width:300px;
+    border-radius:150px;
+}
+.headshot-container{
+    display:flex;
+    align-items: center;
+}
+.project-card{
+    width: 300px;
+    height:500px;
+    box-shadow: 5px 5px 20px rgb(167, 166, 166);
+    margin:10px;
+}
+
+.project-container{
+    display:flex;
+    justify-content:space-around;
+}
+@media only screen and (max-width : 1000px){
+    .project-container{
+        display:flex;
+        flex-wrap:wrap;
+    }
+}
+.project-image{
+    margin-top:20px;
+    width:250px;
+    border-radius:125px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.project-link{
+    text-decoration: none;
+    color:#ef744b;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hamburger{
+    display:none;
+}
+.hamburger:focus{
+    outline:0;
+}
+@media only screen and (max-width : 1000px){
+    .hamburger{
+        display:block;
+        border:0;
+        background-color: transparent;
+        color:white;
+        font-size: 30px;
+        margin:20px;
+        align-self: flex-end;
+    }
+    ul{
+        display:none;
+        background-color:#2b2c38;
+        margin: 0px;
+    }
+    .logo{
+        display:none;
+    }
+    nav{
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        background-color:#2b2c38;
+    }
+    ul.show{
+        display: block;
+    }
+}
+
+.sendEmail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+
+.sub-pages-footer {
+    position: fixed;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .sub-pages-footer {
+        position: relative;
+    }
+}
+
+.form-submit {
+    width: 50%;
+    box-shadow: 5px 5px 10px rgb(167, 166, 166);
+    padding:30px;
+}
+
+.form-submit form {
+    width: 100%;
+}
+
+.form-submit .form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row .form-control {
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.form-row .form-control:focus,
+.form-submit textarea:focus {
+    outline: 0;
+    background-color: rgb(217, 223, 227);
+}
+
+.form-submit textarea {
+    width: 100%;
+    border: none;
+    padding: 0;
+    resize: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+form button {
+    width: 100%;
+    background-color: rgb(36, 50, 60);
+    color: rgb(255,255,255);
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-submit {
+        width: 80%;
+    }
+}
+
+.subtitle{
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+
+
