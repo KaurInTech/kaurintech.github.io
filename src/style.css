@@ -142,6 +142,11 @@ p{
         display:flex;
         flex-wrap:wrap;
     }
+    .sub-section{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+   
 }
 .project-image{
     height:400px;
@@ -214,6 +219,8 @@ a{
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
+    margin-top: 50px;
+
 
 }
 
@@ -341,4 +348,50 @@ form button {
 }
 .project-section{
     margin-bottom: 20px;
+}
+#particle-container1,#particle-container2{
+    height: 100%;
+    width: 100%;
+    position : absolute;
+
+}
+#particle-container3{
+    position:absolute;
+    height: 150px;
+    width: 100%;
+}
+
+/*technical skill section style */
+
+.tech-skills{
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1d25;
+    color:white;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    text-align: center;
+
+
+}
+
+.skill-icons{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.each-icon{
+    margin:20px;
+}
+
+@media only screen and (max-width: 600px) {
+.each-icon img{
+    width: 60px;
+    height: 60px;
+    display: inline-block; /* make the image an inline block element */
+}
 }
