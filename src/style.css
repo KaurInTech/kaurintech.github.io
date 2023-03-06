@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0;
 }
 section {
     background-color: white;
@@ -74,6 +75,7 @@ p{
     flex: 0.6;
     z-index: 3;
 }
+
 .button{
     width: 220px;
     height: 55px;
@@ -202,11 +204,13 @@ a{
         font-size: 30px;
         margin:20px;
         align-self: flex-end;
+        z-index: 2;
     }
     ul{
         display:none;
         background-color:#2b2c38;
         margin: 0px;
+        z-index: 3;
     }
     .logo{
         display:none;
@@ -405,4 +409,6 @@ form button {
     height: 60px;
     display: inline-block; /* make the image an inline block element */
 }
+
+
 }
