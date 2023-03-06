@@ -40,11 +40,13 @@ ul{
     font-size: 30px;
     justify-content: space-around;
     list-style-type: none;
-    width: 500px;
+    width: 550px;
+    margin-right: 20px;
 }
 
 li{
     text-decoration: none;
+    margin-left: 10px;
     z-index: 3;
 
 }
